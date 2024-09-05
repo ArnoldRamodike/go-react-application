@@ -4,10 +4,10 @@ import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 
 export const BASE_URL =
-  import.meta.env.MODE === "development" ? "http://localhost:5000/api" : "/api";
+  import.meta.env.MODE === "development" ? "http://localhost:4000/api" : "/api";
 function App() {
   return (
-    <Stack h="100vh">
+    <Stack h="100vh" w="100vh">
       <Navbar />
       <Container>
         <TodoForm />
